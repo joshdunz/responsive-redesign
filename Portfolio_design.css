@@ -1,0 +1,75 @@
+h1{
+    font-family: 'DM Sans', sans-serif;
+}
+
+h2{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight:bolder;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight:lighter;
+    margin: 10px;
+}
+h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;;
+    font-weight: lighter;
+    color: rgba(198, 11, 11, 0.837);
+    margin: 10px;
+    margin-top: 0;
+}
+
+#responsive-redesign-header{
+    border-left: 1rem solid rgb(71, 71, 134);
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    word-wrap: break-word; 
+}
+
+.project{
+    margin-left: 1.5rem;
+}
+
+.project-name, .language{
+    margin-left: 1.5rem
+}
+
+.project-body{
+    margin-left: 1.5rem;
+}
+.button-link img{
+    max-width: 50vh;
+}
+.button-link{
+    display: flex;
+    flex-direction: column;
+}
+/* .section{
+    display: flex; */
+    /* align-items: left; */
+    
+
+.image-container {
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 2rem;
+    /* justify-content: space-between; */
+}
+
+.image-container img {
+    width: 50rem; /* Adjust the width of the images */
+    height: auto; 
+    border: solid 1px black;/* Maintain aspect ratio */
+}
